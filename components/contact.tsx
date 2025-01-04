@@ -112,10 +112,6 @@ export function Contact() {
                 <span>sneha1423@protonmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="text-primary" />
-                <span>+91 9967899719</span>
-              </div>
-              <div className="flex items-center space-x-3">
                 <MapPin className="text-primary" />
                 <span>Navi Mumbai, Maharashtra</span>
               </div>
