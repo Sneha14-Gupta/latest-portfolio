@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
-import { Inter } from 'next/font/google'
-import "./globals.css"
 
-const inter = Inter({ subsets: ["latin"] })
+import "./globals.css"
+import { Montserrat } from "next/font/google" // Import Montserrat from next/font/google
+
+const montserrat = Montserrat({ subsets: ["latin"] }) // Configure Montserrat font
 
 export const metadata: Metadata = {
   title: "Sneha Gupta - Full Stack Developer",
@@ -16,8 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>{children}</body>
+      <body className={montserrat.className}>{children}</body>
     </html>
   )
 }
-
